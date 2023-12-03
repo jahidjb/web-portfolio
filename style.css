@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+
 html {
   font-family: "fantasy", Georgia, sans-serif, serif;
   font-size: 2rem;
@@ -16,6 +18,8 @@ h3 {
   font-size: 40px;
 }
 .head-color {
+  font-family: "roboto", sans-serif;
+  font-size: 90px;
   color: rgb(255, 115, 0);
 }
 
@@ -31,7 +35,7 @@ h3 {
   width: 80%;
 }
 .top-banner {
-  background-image: url(complete-web-development-bangla-resources/developer-portfolio/top-banner.png);
+  background-image: url(img/top-banner.png);
   background-repeat: no-repeat;
 }
 
@@ -64,4 +68,35 @@ a:hover {
 .dream-area img {
   margin-right: 5%;
   width: 80%;
+}
+
+/* nav elements style*/
+ul {
+  margin-top: 0;
+  list-style-type: none;
+  margin-left: 8%;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.active {
+  background-color: orangered;
+  color: white;
 }
