@@ -1,0 +1,67 @@
+html {
+  font-family: "fantasy", Georgia, sans-serif, serif;
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 40px;
+}
+.head-color {
+  color: rgb(255, 115, 0);
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 5%;
+  float: left;
+}
+
+.half-width img {
+  padding-left: 15%;
+  width: 80%;
+}
+.top-banner {
+  background-image: url(complete-web-development-bangla-resources/developer-portfolio/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+section {
+  height: 600px;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.link-button {
+  background-image: linear-gradient(-45deg, lightsalmon, tomato);
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: orangered;
+  border-radius: 3px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+a:hover {
+  color: gainsboro;
+}
+
+.dream-area {
+  padding-top: 10%;
+}
+
+.dream-area img {
+  margin-right: 5%;
+  width: 80%;
+}
