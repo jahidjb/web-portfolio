@@ -118,6 +118,7 @@ li a:hover {
 .experience-area {
   padding-left: 3%;
   background-image: url(img/exp-bg.png);
+  background-size: 2.5rem;
   background-repeat: no-repeat;
   background-position: left;
   width: 95%;
