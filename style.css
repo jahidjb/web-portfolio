@@ -27,7 +27,7 @@ h3 {
 }
 
 .half-width {
-  width: 40%;
+  width: 36.33%;
   margin-left: 5%;
   padding-left: 5%;
   float: left;
@@ -35,7 +35,7 @@ h3 {
 
 .half-width img {
   padding-left: 15%;
-  width: 80%;
+  width: 100%;
 }
 .top-banner {
   background-image: url(img/top-banner.png);
@@ -43,7 +43,7 @@ h3 {
 }
 
 section {
-  height: 600px;
+  height: 700px;
 }
 
 abbr {
@@ -65,13 +65,14 @@ a:hover {
 }
 
 .dream-area {
+  padding-left: 5%;
   padding-top: 10%;
   margin-right: 15px;
 }
 
 .dream-area img {
-  margin-right: 5%;
-  width: 80%;
+  margin-left: -30%;
+  width: 100%;
 }
 
 /* nav elements style*/
@@ -105,6 +106,38 @@ li a:hover {
   color: white;
 }
 
-p {
-  text-align: justify;
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 80%;
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+}
+
+.experience-area {
+  padding-left: 3%;
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 95%;
+}
+
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, rgb(248, 81, 51));
+  border-image-slice: 1;
+}
+#free-code {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.6rem;
+}
+footer a {
+  text-decoration: none;
 }
