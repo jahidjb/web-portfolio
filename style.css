@@ -1,144 +1,164 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
 
-html {
-  font-family: "fantasy", Georgia, sans-serif, serif;
-  font-size: 2rem;
-}
-
-body {
+* {
   margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
-h1 {
-  font-size: 60px;
-}
-h2 {
-  font-size: 50px;
-}
-h3 {
-  font-size: 40px;
-}
-.head-color {
-  font-family: "roboto", sans-serif;
-  font-size: 90px;
-  color: rgb(255, 115, 0);
-}
-.orange-color {
-  color: rgb(255, 115, 0);
+body {
+  background: #efefef;
 }
 
-.half-width {
-  width: 36.33%;
-  margin-left: 5%;
-  padding-left: 5%;
+.column1 {
+  width: 50%;
   float: left;
 }
 
-.half-width img {
-  padding-left: 15%;
-  width: 100%;
-}
-.top-banner {
-  background-image: url(img/top-banner.png);
-  background-repeat: no-repeat;
+.column2 {
+  float: right;
+  width: 50%;
 }
 
-section {
-  height: 700px;
+.column2 img {
+  width: 70%;
+  float: right;
+  height: 600px;
 }
 
-abbr {
-  text-decoration: none;
-}
-
-.link-button {
-  background-image: linear-gradient(-45deg, lightsalmon, tomato);
-  text-decoration: none;
-  padding: 5px 10px;
-  background-color: orangered;
-  border-radius: 3px;
-  color: whitesmoke;
-  font-weight: 600;
-}
-
-a:hover {
-  color: gainsboro;
-}
-
-.dream-area {
-  padding-left: 5%;
-  padding-top: 10%;
-  margin-right: 15px;
-}
-
-.dream-area img {
-  margin-left: -30%;
-  width: 100%;
-}
-
-/* nav elements style*/
-ul {
-  margin-top: 0;
-  list-style-type: none;
-  margin-left: 8%;
+section.parent {
+  padding-bottom: 100px;
+  width: 1600px;
   overflow: hidden;
-  background-color: white;
+  margin: auto;
+}
+nav.top-banner {
+  /* display: inline-block; */
+  overflow: hidden;
+  height: 60px;
+  width: 1600px;
+  margin: auto;
 }
 
-li {
+ul li {
   float: left;
+  list-style: none;
+  /* text-align: center; */
 }
 
-li a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
+ul {
+  overflow: hidden;
+  /* text-align: center; */
+  margin: auto;
+}
+.column1 img {
+  width: 80%;
 }
 
-li a:hover {
-  background-color: tomato;
-  color: white;
+section.dream-area {
+  padding: 100px 0;
+  overflow: hidden;
+  width: 1600px;
+  margin: auto;
 }
 
-.active {
-  background-color: orangered;
-  color: white;
-}
-
-.single-experience {
-  box-shadow: 10px 10px 40px gray;
-  border-radius: 10px;
-  height: 80%;
+.experience1 {
+  border-left: 8px solid;
+  border-image: linear-gradient(to bottom, lightsalmon, orangered) 1;
+  background: white;
   width: 40%;
-  padding: 10px;
-  background-color: white;
+  padding: 50px;
+  float: left;
+  height: 300px;
 }
 
-.experience-area {
-  padding-left: 3%;
-  background-image: url(img/exp-bg.png);
-  background-size: 2.5rem;
-  background-repeat: no-repeat;
-  background-position: left;
-  width: 95%;
+.experience2 {
+  border-left: 8px solid;
+  border-image: linear-gradient(to bottom, blue, cyan) 1;
+  width: 40%;
+  background: white;
+  float: right;
+  padding: 50px;
+  height: 300px;
 }
 
-#full-stack {
-  border-left: 7px solid;
-  border-image: linear-gradient(180deg, lightsalmon, rgb(248, 81, 51));
-  border-image-slice: 1;
-}
-#free-code {
-  border-left: 7px solid;
-  border-image: linear-gradient(180deg, blue, cyan);
-  border-image-slice: 1;
+.experience1 p {
+  text-align: justify;
 }
 
-footer p {
+.experience2 p {
+  text-align: justify;
+}
+
+section.experience-area {
+  padding-bottom: 40px;
+  overflow: hidden;
+  width: 1600px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+footer {
   text-align: center;
-  font-size: 0.6rem;
 }
-footer a {
+
+footer p a {
   text-decoration: none;
+}
+
+.orange color {
+  color: orange;
+}
+
+.orange-color {
+  color: orange;
+  font-size: 1.3rem;
+}
+a.link-button {
+  text-decoration: none;
+}
+
+.button a {
+  border-radius: 4px;
+  padding: 10px 20px;
+  background: coral;
+  color: white;
+}
+
+.column1 p {
+  margin-bottom: 15px;
+}
+
+.column2 p {
+  margin-bottom: 15px;
+}
+
+.experience-area h2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  color: lightcoral;
+}
+
+.column2 h2 {
+  font-size: 2rem;
+  color: lightcoral;
+  padding-bottom: 30px;
+}
+
+.column2 h3 {
+  font-size: 1.4rem;
+  color: coral;
+}
+
+.column1 h1 {
+  font-size: 1.8rem;
+  color: coral;
+}
+
+.head-color {
+  font-size: 2.5rem;
+  color: lightcoral;
+}
+ul li a {
+  text-decoration: none;
+  padding: 8px;
 }
