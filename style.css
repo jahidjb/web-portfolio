@@ -33,11 +33,13 @@ section.parent {
   margin: auto;
 }
 nav.top-banner {
-  /* display: inline-block; */
+  background-color: orangered;
+  /* display: block; */
   overflow: hidden;
   height: 60px;
   width: 1600px;
   margin: auto;
+  font-size: 2rem;
 }
 
 ul li {
@@ -98,10 +100,15 @@ section.experience-area {
   margin-bottom: 15px;
 }
 footer {
+  margin: auto;
+  width: 1600px;
+  background: orangered;
   text-align: center;
+  color: white;
 }
 
 footer p a {
+  color: white;
   text-decoration: none;
 }
 
@@ -120,7 +127,7 @@ a.link-button {
 .button a {
   border-radius: 4px;
   padding: 10px 20px;
-  background: coral;
+  background: orangered;
   color: white;
 }
 
@@ -159,6 +166,22 @@ a.link-button {
   color: lightcoral;
 }
 ul li a {
+  /* background-color: orangered; */
+  color: white;
+  /* display: inline-block; */
   text-decoration: none;
   padding: 8px;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+a:active {
+  color: orangered;
+}
+
+a::after {
 }
